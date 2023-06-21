@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		C51643282A3B12D2005F75CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51643272A3B12D2005F75CE /* AppDelegate.swift */; };
 		C516432A2A3B12D2005F75CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51643292A3B12D2005F75CE /* SceneDelegate.swift */; };
-		C516432C2A3B12D2005F75CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C516432B2A3B12D2005F75CE /* ViewController.swift */; };
+		C516432C2A3B12D2005F75CE /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C516432B2A3B12D2005F75CE /* StartViewController.swift */; };
 		C516432F2A3B12D2005F75CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C516432D2A3B12D2005F75CE /* Main.storyboard */; };
 		C51643312A3B12D4005F75CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51643302A3B12D4005F75CE /* Assets.xcassets */; };
 		C51643342A3B12D4005F75CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51643322A3B12D4005F75CE /* LaunchScreen.storyboard */; };
+		C516433C2A3B2100005F75CE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C516433B2A3B2100005F75CE /* FirstViewController.swift */; };
+		C516433E2A3B210E005F75CE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C516433D2A3B210E005F75CE /* SecondViewController.swift */; };
+		C554DA3E2A3F5E8E009D9D97 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554DA3D2A3F5E8E009D9D97 /* ThirdViewController.swift */; };
+		C554DA402A3F6373009D9D97 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554DA3F2A3F6373009D9D97 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C51643242A3B12D2005F75CE /* TabBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51643272A3B12D2005F75CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C51643292A3B12D2005F75CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C516432B2A3B12D2005F75CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C516432B2A3B12D2005F75CE /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		C516432E2A3B12D2005F75CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C51643302A3B12D4005F75CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C51643332A3B12D4005F75CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C51643352A3B12D4005F75CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C516433B2A3B2100005F75CE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C516433D2A3B210E005F75CE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C554DA3D2A3F5E8E009D9D97 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		C554DA3F2A3F6373009D9D97 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				C51643272A3B12D2005F75CE /* AppDelegate.swift */,
 				C51643292A3B12D2005F75CE /* SceneDelegate.swift */,
-				C516432B2A3B12D2005F75CE /* ViewController.swift */,
+				C516432B2A3B12D2005F75CE /* StartViewController.swift */,
+				C554DA3F2A3F6373009D9D97 /* TabBarViewController.swift */,
 				C516432D2A3B12D2005F75CE /* Main.storyboard */,
+				C554DA3D2A3F5E8E009D9D97 /* ThirdViewController.swift */,
+				C516433B2A3B2100005F75CE /* FirstViewController.swift */,
+				C516433D2A3B210E005F75CE /* SecondViewController.swift */,
 				C51643302A3B12D4005F75CE /* Assets.xcassets */,
 				C51643322A3B12D4005F75CE /* LaunchScreen.storyboard */,
 				C51643352A3B12D4005F75CE /* Info.plist */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C516432C2A3B12D2005F75CE /* ViewController.swift in Sources */,
+				C516432C2A3B12D2005F75CE /* StartViewController.swift in Sources */,
 				C51643282A3B12D2005F75CE /* AppDelegate.swift in Sources */,
 				C516432A2A3B12D2005F75CE /* SceneDelegate.swift in Sources */,
+				C516433E2A3B210E005F75CE /* SecondViewController.swift in Sources */,
+				C554DA402A3F6373009D9D97 /* TabBarViewController.swift in Sources */,
+				C554DA3E2A3F5E8E009D9D97 /* ThirdViewController.swift in Sources */,
+				C516433C2A3B2100005F75CE /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +318,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Sorq.TabBarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +349,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Sorq.TabBarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
